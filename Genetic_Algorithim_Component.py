@@ -157,7 +157,6 @@ class Team_chromosomes:
         self.genes_made_of_stats = []
         self.fittness_score = 0
         self.current_length = 0
-        self.fittness_score = 0
 
         #print("new chromosome created")
         #print("length" + str(length))
