@@ -5,7 +5,7 @@ from Neural_Network import classifier
 #import Plots_Generated_from_collected_data #imports file
 import compare_results_to_actual_data
 
-#classifier = '/Users/aarondavidselya@gmail/PycharmProjects/Machine_Learning_Baseball_Algorithim/Neural_Network_saved'
+#classifier = '.../PycharmProjects/Machine_Learning_Baseball_Algorithim/Neural_Network_saved'
 
 '''
 
@@ -36,7 +36,7 @@ print statments have been left in from debugging by are commented out
 '''
 GENERATIONS = 10 #sets the main loop
 #dataset compiled from previous operations in Data_extraction_and_sanitization.py
-DATASET = pd.read_csv('/Users/aarondavidselya@gmail/PycharmProjects/Machine_Learning_Baseball_Algorithim/team_stats_ave_no_excess_stats.csv', index_col=None)
+DATASET = pd.read_csv('.../PycharmProjects/Machine_Learning_Baseball_Algorithim/team_stats_ave_no_excess_stats.csv', index_col=None)
 POPULATION_TEAMS = []
 IDEAL_POPULATION_SIZE = 10
 MUTATION_RATE = 0.05
